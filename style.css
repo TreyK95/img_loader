@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
-body {
+* {
   box-sizing: border-box;
 }
 
@@ -18,8 +18,8 @@ body {
 .bg {
   background: url("images/nature.jpg") no-repeat center center/cover;
   position: absolute;
-  top: -30;
-  left: -30;
+  top: -30px;
+  left: -30px;
   width: calc(100vw + 60px);
   height: calc(100vh + 60px);
   z-index: -1;
